@@ -6,7 +6,7 @@ USER root
 
 RUN curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get upgrade -y && apt-get install -y \
         nano tree  \
     && rm -rf /var/lib/apt/lists/*
 
