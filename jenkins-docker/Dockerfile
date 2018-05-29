@@ -2,6 +2,8 @@ FROM jenkins/jenkins:latest
 
 ENV DOCKERVERSION=18.03.1-ce
 
+WORKDIR ${JENKINS_HOME}
+
 USER root
 
 RUN curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
