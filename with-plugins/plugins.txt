@@ -1,6 +1,0 @@
-gitlab-merge-request-jenkins
-slack
-sbt
-gitlab-plugin
-gitlab-hook
-amazon-ecr

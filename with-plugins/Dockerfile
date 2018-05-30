@@ -16,4 +16,9 @@ RUN /usr/local/bin/install-plugins.sh locale
 RUN /usr/local/bin/install-plugins.sh dashboard-view
 RUN /usr/local/bin/install-plugins.sh view-job-filters
 
-RUN /usr/local/bin/install-plugins.sh < /tmp/plugins.txt
+RUN /usr/local/bin/install-plugins.sh gitlab-merge-request-jenkins
+RUN /usr/local/bin/install-plugins.sh slack
+RUN /usr/local/bin/install-plugins.sh sbt
+RUN /usr/local/bin/install-plugins.sh gitlab-plugin
+RUN /usr/local/bin/install-plugins.sh gitlab-hook
+RUN /usr/local/bin/install-plugins.sh amazon-ecr
