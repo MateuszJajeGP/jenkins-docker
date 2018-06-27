@@ -28,3 +28,4 @@ RUN /usr/local/bin/install-plugins.sh dashboard-view
 RUN /usr/local/bin/install-plugins.sh view-job-filters
 RUN /usr/local/bin/install-plugins.sh locale
 RUN /usr/local/bin/install-plugins.sh extra-columns
+RUN /usr/local/bin/install-plugins.sh text-file-operations
